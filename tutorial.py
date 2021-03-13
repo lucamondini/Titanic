@@ -42,3 +42,5 @@ predictions = model.predict(X_test)
 output = pd.DataFrame({'PassengerId': test_data.PassengerId, 'Survived': predictions})
 output.to_csv('my_submission.csv', index=False)
 print("Your submission was successfully saved!")
+
+# Test
